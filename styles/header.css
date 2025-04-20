@@ -1,0 +1,55 @@
+#header_top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background: black;
+    color: white;
+    font-size: 12px;
+    padding: 2px 20px;
+}
+
+#header_branding {
+    float: right;
+    cursor: default;
+}
+
+#header_lastupdate {
+    cursor: default;
+}
+
+#header_menu {
+    position: fixed;
+    top: 19px;
+    right: 0;
+    left: 0;
+    background: rgb(39, 39, 39);
+    padding: 10px 25px;
+    box-shadow: 1px 1px 5px rgb(39, 39, 39);
+}
+
+.header_link {
+    text-decoration: none;
+    padding: 10px 15px;
+    margin: -10px 0;
+    color: white;
+    background: transparent;
+    transition: background 200ms;
+}
+
+.header_link:hover {
+    background: rgb(59, 59, 59);
+}
+
+.header_link:active {
+    background: rgb(85, 85, 85);
+}
+
+#header_home {
+    width: 18px;
+    vertical-align: middle;
+}
+
+#header, #header_top, #header_menu {
+    z-index: 999;
+}

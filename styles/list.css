@@ -1,0 +1,39 @@
+#list_ph {
+    overflow: hidden;
+}
+
+#list_jump {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.list_item_link {
+    color: inherit;
+    text-decoration: none;
+    width: 100%;
+}
+
+.list_item_desc {
+    color: rgb(105, 105, 105);
+    font-size: 11px;
+}
+
+.list_item_icon {
+    width: 48px;
+}
+
+.list_item {
+    width: 100%;
+    background: transparent;
+    transition: background 200ms;
+    margin: -9px;
+    padding: 10px;
+}
+
+.list_item:hover {
+    background: rgb(209, 209, 209);
+}
+
+.list_item:active {
+    background: rgb(173, 173, 173);
+}

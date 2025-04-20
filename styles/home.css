@@ -1,0 +1,25 @@
+#home_oobe {
+    max-width: 90%;
+}
+
+#home_separator {
+    border-top: none;
+    border-bottom-color: rgb(180, 180, 180);
+}
+
+#home_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.home_grid_el {
+    text-align: center;
+}
+
+.home_picture {
+    width: 50%;
+}
+
+.home_oobe_hint {
+    cursor: help;
+}

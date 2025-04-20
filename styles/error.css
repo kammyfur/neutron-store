@@ -1,0 +1,9 @@
+#error_message {
+    font-size: 12px;
+    opacity: .5;
+}
+
+#error_icon {
+    width: 128px;
+    margin-right: 15px;
+}

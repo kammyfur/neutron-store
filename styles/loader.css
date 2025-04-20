@@ -1,0 +1,14 @@
+/* Global imports */
+@import "/styles/header.css";
+@import "/styles/fonts.css";
+@import "/styles/content.css";
+
+/* Page-specific imports */
+@import "/styles/error.css";
+@import "/styles/home.css";
+@import "/styles/list.css";
+@import "/styles/viewer.css";
+@import "/styles/redirect.css";
+
+/* Responsiveness import — insert all other imports before */
+@import "/styles/responsive.css";

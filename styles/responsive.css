@@ -1,0 +1,28 @@
+@media (max-width: 500px) {
+    .mobile_hide {
+        display: none;
+    }
+    .header_link {
+        font-size: 12px;
+    }
+    #header_menu {
+        padding: 7px 5px;
+        text-align: center;
+    }
+    #home_grid {
+        grid-template-columns: 1fr;
+    }
+    #list_jump {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+    #view_intro {
+        grid-template-columns: 1fr;
+        margin-top: -15px;
+    }
+    #view_intro_logo, #view_intro_info {
+        text-align: center;
+    }
+    #view_info_more {
+        grid-template-columns: 1fr;
+    }
+}

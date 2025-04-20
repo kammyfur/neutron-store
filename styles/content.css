@@ -1,0 +1,22 @@
+#content-escape {
+    margin-top: 69px;
+}
+
+a.link {
+    color: black;
+    text-decoration: underline;
+}
+
+a.link:hover {
+    color: rgb(46, 46, 46);
+}
+
+a.link:active {
+    color: rgb(94, 94, 94);
+    text-decoration: none;
+}
+
+html, body {
+    overflow-x: hidden !important;
+    margin: 0;
+}
